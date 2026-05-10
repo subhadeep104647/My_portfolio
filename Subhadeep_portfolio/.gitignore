@@ -14,7 +14,6 @@ dist-ssr
 
 # Media files
 public/Music.mp3
-public/Work2.mp4
 
 # Editor directories and files
 .vscode/*
