@@ -25,7 +25,7 @@ const Certificates = () => {
       date: "February 22, 2026",
       id: "xevyr-gapov-vyfim-tefok-kyduc",
       link: "https://sap.com",
-      pic: "public/c1.svg",
+      pic: "public/c1.png",
       color: "border-blue-600",
       level: "Intermediate",
       skills: ["ABAP", "CDS Views", "Data Modeling", "SQL"]
@@ -36,7 +36,7 @@ const Certificates = () => {
       date: "May 2026",
       id: "2WJyZtSATNqazRH29",
       link: "https://theforage.com",
-      pic: "public/c2.svg",
+      pic: "public/c2.png",
       color: "border-amber-500",
       level: "Professional",
       skills: ["GenAI", "Data Analytics", "Prompt Engineering"]
@@ -47,7 +47,7 @@ const Certificates = () => {
       date: "February 20, 2026",
       id: "xudym-cikyp-dabot-hucys-dolip",
       link: "https://sap.com",
-      pic: "public/c3.svg",
+      pic: "public/c3.png",
       color: "border-blue-400",
       level: "Beginner",
       skills: ["ABAP Objects", "SAP SQL", "RESTful App Model"]

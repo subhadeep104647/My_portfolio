@@ -9,23 +9,23 @@ const Home = () => {
   const logos = [
     {
       name: 'Canva',
-      src: 'public/App1.svg',
+      src: 'public/App1.png',
     },
     {
       name: 'Figma',
-      src: 'public/App2.svg',
+      src: 'public/App2.png',
     },
     {
       name: 'Webflow',
-      src: 'public/App3.svg',
+      src: 'public/App3.png',
     },
     {
       name: 'Notion',
-      src: 'public/App4.svg',
+      src: 'public/App4.png',
     },
     {
       name: 'Procreate',
-      src: 'public/App5.svg',
+      src: 'public/App5.png',
     },
   ];
 
@@ -50,17 +50,16 @@ const Home = () => {
         </div>
 
         <div className='w-1/2'>
-        <img src="public/Me.svg" alt="My Pic"  className=' h-100 w-80 flex ml-50'/>
+        <img src="/Me.jpg" alt="My Pic"  className=' h-100 w-80 flex ml-50 rounded-3xl'/>
         </div>
 
       </div>
 
       <div className="">
       <div className="relative w-full overflow-hidden rounded-3xl py-8">
-        {/* stars background */}
+
         <div className="absolute inset-0 opacity-30 bg-[size:24px_24px]" />
 
-        {/* gradient fade */}
         <div className="absolute left-0 top-0 z-10 h-full w-full" />
         <div className="" />
 
