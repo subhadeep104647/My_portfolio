@@ -9,23 +9,23 @@ const Home = () => {
   const logos = [
     {
       name: 'Canva',
-      src: 'public/App1.png',
+      src: '/App1.png',
     },
     {
       name: 'Figma',
-      src: 'public/App2.png',
+      src: '/App2.png',
     },
     {
       name: 'Webflow',
-      src: 'public/App3.png',
+      src: '/App3.png',
     },
     {
       name: 'Notion',
-      src: 'public/App4.png',
+      src: '/App4.png',
     },
     {
       name: 'Procreate',
-      src: 'public/App5.png',
+      src: '/App5.png',
     },
   ];
 
