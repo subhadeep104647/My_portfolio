@@ -26,7 +26,7 @@ const About = () => {
             </p>
             <p>
               With recent hands-on experience in <strong>GenAI Powered Data Analytics</strong> and <strong>Data Modeling</strong>, 
-              I bring a technical edge to both backend logic and user-centric design. Whether it's the creative 
+              I bring a technical edge to Frontend and user-centric design. Whether it's the creative 
               branding of <span className="text-white font-semibold italic">"Love & Lattes"</span> or the performance optimization 
               of <span className="text-white font-semibold italic">"DEBUGXIA"</span>, I focus on delivering scalable results.
             </p>
