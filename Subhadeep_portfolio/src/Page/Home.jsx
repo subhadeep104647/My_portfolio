@@ -27,6 +27,10 @@ const Home = () => {
       name: 'Procreate',
       src: '/App5.png',
     },
+    {
+      name: 'SAP',
+      src: '/App6.png',
+    },
   ];
 
   const repeatedLogos = [...logos, ...logos, ...logos];
