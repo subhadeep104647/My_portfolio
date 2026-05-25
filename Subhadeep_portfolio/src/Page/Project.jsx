@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import Home from './Home'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Project = () => {
   const videoRef = useRef(null);
@@ -34,8 +36,8 @@ const Project = () => {
            <div className=' flex flex-row items-center justify-between'>
               <div><h1 className='text-[#22202d] text-xl font-semibold tracking-wider'>DEBUGXIA</h1></div>
               <div className=' flex flex-row gap-1'>
-                <div><button><a href='https://github.com/DEBUGXIA/DEBUG_XIA'><img src="/Git.png" alt="git.com" className='w-10 h-10'/></a></button></div>
-                <div><button><a href='https://www.linkedin.com/posts/subhadeep-biswas-4731732a9_innovatex-innovatex-debugging-ugcPost-7449450591342219264-qak9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9qdcBTyWGiycEl8tgNGY2X85B2ylSEs8'><img src="/Linkdin.png" alt="linkdin.com" className='w-10 h-10'/></a></button></div>
+                <div><button className="w-8 h-8 rounded-full backdrop-blur-lg bg-white/10 border border-white/20 flex items-center justify-center text-white text-gl hover:scale-110 transition"><a href='https://github.com/DEBUGXIA/DEBUG_XIA'><FaGithub /></a></button></div>
+                <div><button className="w-8 h-8 rounded-full backdrop-blur-lg bg-white/10 border border-white/20 flex items-center justify-center text-white text-gl hover:scale-110 transition"><a href='https://www.linkedin.com/posts/subhadeep-biswas-4731732a9_innovatex-innovatex-debugging-ugcPost-7449450591342219264-qak9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9qdcBTyWGiycEl8tgNGY2X85B2ylSEs8'><FaLinkedinIn /></a></button></div>
               </div>
            </div>
 
@@ -76,8 +78,8 @@ const Project = () => {
            <div className=' flex flex-row items-center justify-between'>
               <div><h1 className='text-[#22202d] text-xl font-semibold tracking-wider'>LOVE & LATTES</h1></div>
               <div className=' flex flex-row gap-1'>
-                <div><button><a href='https://github.com/subhadeep104647/Love---Lattes'><img src="/Git.png" alt="git.com" className='w-10 h-10'/></a></button></div>
-                <div><button><a href='https://www.linkedin.com/posts/subhadeep-biswas-4731732a9_cafe-webdeveloper-pythonproject-activity-7435711980327321600-y01N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9qdcBTyWGiycEl8tgNGY2X85B2ylSEs8'><img src="/Linkdin.png" alt="linkdin.com" className='w-10 h-10'/></a></button></div>
+                <div><button className="w-8 h-8 rounded-full backdrop-blur-lg bg-white/10 border border-white/20 flex items-center justify-center text-white text-gl hover:scale-110 transition"><a href='https://github.com/subhadeep104647/Love---Lattes'><FaGithub /></a></button></div>
+                <div><button className="w-8 h-8 rounded-full backdrop-blur-lg bg-white/10 border border-white/20 flex items-center justify-center text-white text-gl hover:scale-110 transition"><a href='https://www.linkedin.com/posts/subhadeep-biswas-4731732a9_cafe-webdeveloper-pythonproject-activity-7435711980327321600-y01N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9qdcBTyWGiycEl8tgNGY2X85B2ylSEs8'><FaLinkedinIn /></a></button></div>
               </div>
            </div>
 
